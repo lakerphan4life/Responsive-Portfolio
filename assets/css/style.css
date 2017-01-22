@@ -244,3 +244,190 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+/*media query for about page and all main stuff*/
+
+@media screen and (max-width: 980px) {
+
+.container {
+  max-width: 728px;
+}
+
+/*sidebar*/
+
+.sidebar {
+  margin-bottom: 40px;
+}
+
+/*main*/
+
+.main-section {
+  max-width: 400px;
+}
+
+.auth-image {
+  width: 100%;
+  float: none;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+body {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.container {
+  max-width: 620px;
+}
+
+/*sidebar*/
+
+.sidebar {
+  max-width: none;
+}
+
+/*main*/
+
+#main-container {
+  padding-top: 130px;
+}
+
+.main-section {
+  max-width: 620px;
+}
+
+.auth-image {
+  width: 50%;
+  float: left;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+
+body {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.container {
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*header*/
+
+#masthead
+{
+  position: static;
+}
+
+#main-container
+{
+  padding-top: 0px;
+}
+
+.container
+{
+  padding-top: 0px;
+}
+
+#logo {
+  width: 100%;
+}
+
+nav {
+  text-align: center;
+  float: none;
+  margin-top: 0px;
+
+}
+
+nav a {
+  width: 25%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+nav a:first-child {
+  margin-left: 0;
+}
+
+/*sidebar*/
+
+.sidebar {
+
+  width: 95%;
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*main*/
+
+.main-section {
+  padding: 30px;
+  margin: 40px 0 40px 0;
+  width: 95%;
+  max-width: none;
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.auth-image {
+  width: 100%;
+  margin-bottom: 10px;
+  float: none;
+}
+
+}
+
+
+/*media query for portfolio page*/
+
+@media screen and (max-width: 980px) {
+
+.work {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.work {
+  width: 47.5%;
+  float: left;
+  margin: 5px;
+}
+
+.work:nth-child(even) {
+  margin-right: 10px;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+
+.work {
+  width: 100%;
+  float: none;
+  margin: 20px 0 25px;
+  margin-bottom: 10px;
+}
+
+.work img {
+  margin-top: 10px;
+}
+
+}
+
+
